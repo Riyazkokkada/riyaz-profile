@@ -1,0 +1,32 @@
+
+:root{
+  --bg:#071021; --bg2:#0b1220; --card:#0f1724;
+  --muted:#9fb0c8; --accent:#56d0ea; --accent2:#7ea6ff;
+}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system;
+  background: linear-gradient(180deg,var(--bg),var(--bg2));
+  color:#e6f3fb;
+}
+.container{
+  max-width:1100px;
+  margin:40px auto;
+  padding:24px;
+}
+.card{
+  background:var(--card);
+  padding:18px;
+  border-radius:14px;
+  margin-bottom:20px;
+}
+.tech-grid{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.tech-item{
+  padding:10px 16px;
+  border-radius:999px;
+  background:rgba(255,255,255,0.05);
+}
